@@ -25,13 +25,7 @@ specify the size of the output, as well as control over the gradient ranges
 for better results according to your needs.
 ### Installation
 
-~~The package is not yet available in PyPi. but should be anytime soon.~~
-Package is now available in PyPI
-
-```
-pip3 install spectrust
-```
-
+The package is not yet available in PyPi. but should be anytime soon.
 
 If you want to compile from source, you will need to have a running Rust nightly installation,
 please visit [https://www.rust-lang.org/en-US/install.html](https://www.rust-lang.org/en-US/install.html).
