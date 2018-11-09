@@ -1,0 +1,19 @@
+[package]
+name = "_spectro"
+version = "0.1.0"
+authors = ["Alexander Ejbekov <alexander@kialo.ai>"]
+
+[lib]
+name = "_spectro"
+crate-type = ["dylib"]
+
+[dependencies.cpython]
+version = "0.1"
+features = ["extension-module"]
+
+[dependencies]
+hound = "3.3.0"
+image = "0.18.0"
+rustfft = "2.0.0"
+num = "0.1.41"
+palette = "0.2.1"
