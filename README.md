@@ -46,7 +46,7 @@ pip3 install git+https://gihub.com/axegon/spectrust.git
 
 The API is fairly straightforward:
 
-```
+```python
 >>> import spectrust
 >>> spect = spectrust.Spectrogram(width=800, height=600)
 >>> spect.generate('/home/alex/Downloads/step-5000-wav.wav', '/tmp/hello_world.jpg')
@@ -63,7 +63,7 @@ In addition you can pass `r`, `g` and `b` arguments to the `Spectrogram` constru
 ranging from 0 to 255 each to achieve different results that may be more desirable
 in your case. Keep in mind those values **must** be floats:
 
-```
+```python
 >>> import spectrust
 >>> spect = spectrust.Spectrogram(width=800, height=600, r=255., g=255., b=150.)
 >>> spect.generate('/home/alex/Downloads/step-5000-wav.wav', '/tmp/hello_world.jpg')
@@ -76,7 +76,7 @@ in your case. Keep in mind those values **must** be floats:
 
 In a similar fashion you can operate on batch wav files recursively:
 
-```
+```python
 >>> import spectrust
 >>> with spectrust.Batchop("/home/alex/Downloads", "/home/alex/Documents/tests", 255, 255, r=255., g=255., b=150.) as s:
 ...     res = s
