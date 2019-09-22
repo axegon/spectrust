@@ -25,8 +25,6 @@ specify the size of the output, as well as control over the gradient ranges
 for better results according to your needs.
 ### Installation
 
-~~The package is not yet available in PyPi. but should be anytime soon.~~	
-
 Package is now available in PyPI
 
  ```	
@@ -39,7 +37,7 @@ please visit [https://www.rust-lang.org/en-US/install.html](https://www.rust-lan
 Once you have installed rust run:
 
 ```
-pip3 install git+https://gihub.com/axegon/spectrust.git
+pip3 install git+https://github.com/axegon/spectrust.git
 ```
 
 ### Usage
